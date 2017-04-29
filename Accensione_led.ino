@@ -12,8 +12,11 @@ void loop()
 
   digitalWrite(LED, HIGH);
   digitalWrite(LED1, LOW);
+
   delay(1000);
+
   digitalWrite(LED, LOW);
   digitalWrite(LED1, HIGH);
+
   delay(1000);
 }
